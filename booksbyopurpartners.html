@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Children Harvest Intl. Books</title>
+	<link rel="stylesheet" href="songs.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+	<nav> 
+		<a href="index.html"><img src="images/20220507_092424.png" alt="Logo"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<b><li><a href="index.html">HOME</a></li>
+				<li><a href="videos.html">VIDEOS</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="aboutus.html">ABOUT US</a></li>
+				<li><a href="contactus.html">CONTACT US</a></li></b>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+
+	<div class="text-box">
+		<h1>BLOG</h1>
+		<br />
+		<p>Books by Our Partners</p>
+		<p><span>"Below are charts written and published by Our Partners."</span></p>
+	</div>
+
+</section>
+
+<section class="books">
+	<br />
+	<hr />
+	<h1>Children Gospel Books</h1>
+	<hr />
+	<p>Consists Gospel Books Written and published by Children Harvest International</p>
+	<div class="row">
+		<div class="books-col">
+			<img src="images/ee.jpg" alt="Explorers Club">
+			<h3>Explorers Club</h3>
+			<p>A Children Training Manual<br>The Mailbox Club International</p>
+		</div>
+		<div class="books-col">
+			<img src="images/IMG-20220507-WA0001.jpg" alt="Day By Day With Jesus">
+			<h3>Day By Day With Jesus</h3>
+			<p>A Character Development Series<br> Author  Pst. Chinedu Anamelechi,<br> Children Harvest International</p>
+		</div>
+		<div class="books-col">
+			<img src="images/IMG-20220507-WA0004.jpg" alt="Catching the Vision; Fulfilling the mission">
+			<h3>Catching the Vision; Fulfilling the mission</h3>
+			<p>Children Ministries Resource Manual<br> Author  Pst. Chinedu Anamelechi,<br> Children Harvest International</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="books-col">
+			<img src="images/IMG-20220507-WA0002.jpg" alt="Dumbe's New Heart">
+			<h3>Dumbe's New Heart</h3>
+			<p>A Character Development Series<br> Author  Pst. Chinedu Anamelechi,<br>Adventures of Wasinga<br> Children Harvest International</p>
+		</div>
+		<div class="books-col">
+			<img src="images/IMG-20220507-WA0005.jpg" alt="Lessons From the Antill">
+			<h3>Lessons From The Anthill</h3>
+			<p>A Character Development Series<br> Author  Pst. Chinedu Anamelechi,<br>Adventure of Wasinga<br> Children Harvest International</p>
+		</div>
+		<div class="books-col">
+			<img src="images/IMG-20220507-WA0006.jpg" alt="Ogidi and the Kidnappers">
+			<h3>Ogidi And The Kidnappers</h3>
+			<p>A Character Development Series<br> Author  Pst. Chinedu Anamelechi,<br>Adventure of Wasinga<br> Children Harvest International</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="books-col">
+			<img src="images/IMG-20220507-WA0009.jpg" alt="David and Goliath">
+			<h3>David And Goliath</h3>
+			<p>A Character Development Series<br> Author  Pst. Chinedu Anamelechi,<br> Colour and Learn about God<br>Children Harvest International</p>
+		</div>
+		<div class="books-col">
+			<img src="images/IMG-20220507-WA0016.jpg" alt="The Return Of Simba">
+			<h3>The Return Of Simba</h3>
+			<p>A Compelling Easter Story<br> Author  Pst. Chinedu Anamelechi,<br> Children Harvest International</p>
+		</div>
+		<div class="books-col">
+			<img src="images/IMG-20220507-WA0011.jpg" alt="Jonah's Mission To Nineveh">
+			<h3>Jonah's Mission To Nineveh</h3>
+			<p>A Character Development Series<br> Author  Pst. Chinedu Anamelechi,<br>Color and Learn about God <br> Children Harvest International</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="books-col">
+			<img src="images/IMG-20220507-WA0020.jpg" alt="The Golden Fish">
+			<h3>The Golden Fish</h3>
+			<p>A Character Development Series<br> Author  Pst. Chinedu Anamelechi,<br> Adventure of Wasinga<br>Children Harvest International</p>
+		</div>
+	</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Call to Action -->
+<section class="cta">
+	<h1>For Booking, More Information <br>& Support</h1>
+	<a href="contactus.html" class="here-btn">CONTACT US</a>
+</section>
+
+
+
+
+<!--Footer -->
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Children Harvest International</b> is a non-profit organisation<br> with the mandate to reach Boys and Girls <br>with the Gospel of the <b>KINGDOM OF GOD!</b>.</p>
+	<img src="images/contact us.png">
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p>Made by <i class="fa fa-heart"></i>Lil-Dino Concepts</p>
+
+</section>
+
+
+
+
+
+<!-------JavaScript for Toggle Menu------->
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+
+
+</body>
+</html>
